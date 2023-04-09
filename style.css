@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+canvas{
+    object-fit: cover;
+    width: 100vw; 
+    height: 100vh;
+}
+
+.text {
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 5rem;
+    right: 20%;
+    bottom: 60%;
+    transform: translate(-20%,-60%);
+}
